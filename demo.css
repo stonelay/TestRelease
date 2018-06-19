@@ -1,0 +1,275 @@
+@charset "UTF-8";
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block
+}
+
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, figure, div {
+    margin: 0;
+    padding: 0
+}
+
+fieldset, img {
+    border: 0 none
+}
+
+a {
+    background: 0 0;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+}
+
+a:active, a:hover {
+    outline: 0 none
+}
+
+a, a:hover {
+    text-decoration: none
+}
+
+:focus {
+    outline: 0 none
+}
+
+address, caption, cite, code, dfn, em, th, var, optgroup {
+    font-style: normal;
+    font-weight: 400
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400
+}
+
+abbr, acronym {
+    border: 0 none;
+    font-variant: normal
+}
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+code, kbd, samp, tt, input, button, textarea, select {
+    font-size: 100%
+}
+
+ol, ul, li {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+sup, sub {
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: ''
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled], html input[disabled] {
+    cursor: not-allowed
+}
+
+button {
+    overflow: visible
+}
+
+em, i {
+    font-style: normal
+}
+
+.f-left {
+    float: left
+}
+
+.f-right {
+    float: right
+}
+
+.f-clearfix:before, .f-clearfix:after {
+    display: table;
+    content: ' '
+}
+
+.f-clearfix:after {
+    clear: both
+}
+
+html .f-hide {
+    display: none
+}
+
+.f-text-left {
+    text-align: left
+}
+
+.f-text-right {
+    text-align: right
+}
+
+.f-text-center {
+    text-align: center
+}
+
+body {
+    font: 12px/1.5 tahoma, arial, Hiragino Sans GB, WenQuanYi Micro Hei, '\5FAE\8F6F\96C5\9ED1', '\5B8B\4F53', sans-serif;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    min-width: 320px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch
+}
+
+a {
+    color: #333
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: .5973rem;
+    overflow: hidden
+}
+
+button {
+    border: 0 none;
+    -webkit-tap-highlight-color: transparent
+}
+
+* {
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin: 0;
+    padding: 0
+}
+
+img {
+    display: block
+}
+
+.grap {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.logo {
+    width: 26.67%;
+    height: 26.67%;
+    margin: 1.5rem 36.2% 1.7rem;
+    border-radius: 15px;/*所在div层的角切圆*/
+}
+
+.hint {
+    width: 100%;
+    font-size: .768rem;
+    color: #2d2d2d;
+    text-align: center
+}
+
+.input {
+    position: relative;
+    width: 79.5%;
+    height: 1.71rem;
+    background: url(../img/input.png) center top no-repeat;
+    background-size: 100% auto;
+    margin: 0 auto;
+    margin-top: .8rem;
+    line-height: 1.71rem;
+    text-align: center
+}
+
+.txt {
+    border: none;
+    background-color: transparent;
+    width: 59.5%;
+    height: 1.31rem;
+    float: left;
+    text-align: center;
+    margin-left: .5rem;
+    margin-top: .2rem
+}
+
+.input button {
+    width: 30%;
+    height: 1.71rem;
+    display: inline-block;
+    float: right;
+    background: url(../img/btn.png) center top no-repeat;
+    background-size: 100% 100%;
+    font-size: .768rem
+}
+
+.pp {
+    width: 100%;
+    text-align: center;
+    margin-top: 2.2rem;
+    color: #b6b6b6
+}
+
+.tips {
+    font-size: .4973rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1.2rem;
+    color: #b6b6b6
+}
+
+a.down {
+    display: block;
+    width: 78.93%;
+    height: 1.963rem;
+    text-align: center;
+    line-height: 1.963rem;
+    color: #fff;
+    font-size: .768rem;
+    margin: 0 auto
+}
+
+a.ios {
+    background-color: #00adf1;
+    margin: .7rem auto .7rem;
+    border-radius: 8px;
+}
+
+a.andro {
+    background-color:forestgreen;
+    background-size: 100% auto
+}
+
+.ret {
+    position: absolute;
+    width: 40%;
+    height: 1rem;
+    left: 30%;
+    text-align: center;
+    margin: .2rem auto;
+    background-color: rgba(0, 0, 0, .7);
+    color: #fff;
+    line-height: 1rem;
+    border-radius: .2rem
+}
+
+#code:active {
+    text-decoration: none
+}
